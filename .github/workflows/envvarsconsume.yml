@@ -14,7 +14,7 @@ jobs:
       - name: Use environment variables
         env:
           API_URL: ${{ vars.API_URL }}
-          API_MODE: ${{ vars.APP_MODE }}
+          APP_MODE: ${{ vars.APP_MODE }}
         run: |
           echo "API URL: $API_URL"
           echo "APP MODE: $APP_MODE"
