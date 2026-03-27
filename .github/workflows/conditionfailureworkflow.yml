@@ -15,4 +15,3 @@ jobs:
       - name: step 2
         if: failure()
         run: echo "Runs only if Step 1 failed"
-``
