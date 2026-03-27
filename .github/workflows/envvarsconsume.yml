@@ -1,5 +1,4 @@
-
-name: Env Variables Demo
+name: Env Variables Consume Demo
 
 on: workflow_dispatch
 
