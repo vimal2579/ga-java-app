@@ -26,3 +26,9 @@ jobs:
 
       - name: run tests
         run: mvn test
+
+      - name: upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: java-demo-artifact
+          path: target/*.jar
