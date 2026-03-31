@@ -1,4 +1,4 @@
-/*package com.example;
+package com.example;
 
 public class App {
 
@@ -10,9 +10,9 @@ public class App {
         App app = new App();
         System.out.println("Sum: " + app.add(5, 3));
     }
-}*/
+}
 
-package com.example;
+/*package com.example;
 
 import java.sql.*;
 import java.io.*;
@@ -54,4 +54,4 @@ public class App {
         App app = new App();
         System.out.println("Sum: " + app.add(5, 3));
     }
-}
+}*/
